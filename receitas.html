@@ -2,35 +2,24 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Receitas - Onde o mar toca o céu</title>
+  <title>Receitas</title>
   <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
-<header>
-  <h1>Onde o mar toca o céu</h1>
   <nav>
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="diario.html">Diário</a></li>
-      <li><a href="cartas.html">Cartas</a></li>
-      <li><a href="receitas.html">Receitas</a></li>
-      <li><a href="poemas.html">Poemas</a></li>
-    </ul>
+    <a href="index.html">Início</a>
+    <a href="diario.html">Diário</a>
+    <a href="cartas.html">Cartas</a>
+    <a href="receitas.html">Receitas</a>
+    <a href="poemas.html">Poemas</a>
   </nav>
-</header>
 
-<main>
-  <div class="filtro">
-    <input type="text" id="filtroReceitas" placeholder="Procure por nome da receita...">
+  <div class="search-box">
+    <input id="pesquisa" class="search-input" type="text" onkeyup="filtrarConteudo()" placeholder="Procurar por nome da receita...">
   </div>
 
-  <section class="entrada">
-    <h2>Bolo de limão e lembranças</h2>
-    <p>Um bolo simples, perfumado, que cheira a casa antiga e tardes tranquilas...</p>
-  </section>
-</main>
-
-<footer>© 2025 Onde o mar toca o céu</footer>
+  <div class="item"><h3>Brigadeiro tradicional</h3><p>Uma caixa de leite condensado<br>1/2 caixa de creme de leite<br>Duas colheres de sopa de achocolatado<br>Uma colher de café de cacau 100%<br>uma colher de sopa de margarina<br><br>Modo de preparo:<br>Misture todos os ingredientes na panela com o fogo desligado, depois de quase homogêneo ligue o fogo e mexa sem parar, quando começar a borbulhar em volta, diminua o fogo e continue mexendo. Depois de alguns minutos o brigadeiro estará pronto, se for para comer de colher passe ela abrindo o brigadeiro, quando demorar um pouco para a massa se juntar está pronto. Se for para enrolar deixe mais tempo, até a massa cair em blocos quando pega com a colher. Está pronto nosso docinho!  </p></div>
+ 
 </body>
 </html>
