@@ -44,10 +44,9 @@ nav a:hover {
   text-decoration: none;
 }
 
-.flor-inicio {
-  width: 90px;
-  display: block;
-  margin: 0 auto 10px auto;
+.logo-flor {
+  width: 120px; /* ou outro valor que quiser */
+  margin-bottom: 25px;
 }
 
 .search-box {
